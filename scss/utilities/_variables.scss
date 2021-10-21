@@ -9,6 +9,20 @@ $primary-color: #58e1c1;
 $secondary-color: #51ddfc;
 $border-color: #ccc;
 
+// Button colors
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+
+$button-color: (
+    'default': #51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);
+
 // Styling variables
 $border-radius: 5px;
 

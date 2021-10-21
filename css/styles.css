@@ -401,9 +401,6 @@ a {
 .default {
   background-color: #51ddfc;
 }
-.default:hover {
-  background-color: #b5f1fe;
-}
 
 .error {
   background-color: #e4757a;
@@ -654,7 +651,6 @@ a {
     justify-content: flex-end;
     align-items: center;
   }
-
   .nav-link {
     flex-basis: 100px;
   }

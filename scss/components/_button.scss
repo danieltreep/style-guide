@@ -10,28 +10,50 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: $border-radius;
+  
 }
 
-.default {
-  background-color: $secondary-color;
-
-  &:hover {
-    background-color: lighten($secondary-color, 20%);
+@each $key, $value in $button-color {
+  .#{$key} {
+    background-color: $value;
   }
 }
+// .default {
+//   background-color: $secondary-color;
 
-.error {
-  background-color: #e4757a;
-}
+//   &:hover {
+//     background-color: lighten($secondary-color, 10%);
+//   }
+// }
 
-.info {
-  background-color: #927bc1;
-}
+// .error {
+//   background-color: $error;
+  
+//   &:hover {
+//     background-color: lighten($error, 10%);
+//   }
+// }
 
-.success {
-  background-color: #63cc82;
-}
+// .info {
+//   background-color: $info;
 
-.warning {
-  background-color: #fd7856;
-}
+//   &:hover {
+//     background-color: lighten($info, 10%);
+//   }
+// }
+
+// .success {
+//   background-color: $success;
+
+//   &:hover {
+//     background-color: lighten($success, 10%);
+//   }
+// }
+
+// .warning {
+//   background-color: $warning;
+
+//   &:hover {
+//     background-color: lighten($warning, 10%);
+//   }
+// }
